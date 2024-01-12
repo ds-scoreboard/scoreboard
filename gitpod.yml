@@ -1,0 +1,10 @@
+image: gitpod/workspace-full
+
+tasks:
+    - name: Serve static files
+      command: python3 -m http.server
+
+ports:
+    - port: 8000
+      name: Scoreboard
+      description: Scoreboard Preview
